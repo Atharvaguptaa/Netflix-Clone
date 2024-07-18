@@ -1,0 +1,11 @@
+.menu{
+   position: sticky;
+  position: -webkit-sticky;
+  top: 0; 
+  background-color: rgb(20, 20, 20);
+  z-index: 2;
+}
+.cards{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
